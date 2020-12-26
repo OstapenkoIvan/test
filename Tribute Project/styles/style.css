@@ -1,0 +1,66 @@
+body{
+    display: flex;
+    flex-flow: column wrap;
+    background-color: #4dffd2;  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+    font-size: medium;   
+}
+.middle{
+    display: flex;
+    flex-direction: row;    
+    align-items: flex-start;
+}
+.youknow{
+    width: auto;
+    background-color: khaki;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav{
+    
+}
+.nav a{
+    display: block;
+    text-decoration: none;
+    padding: 0.5em;
+}    
+
+Header{
+    text-align:center;
+    
+}
+figure{
+    border: 1px #cccccc solid;
+    padding: 4px;
+    margin: auto;
+    
+}
+figcaption {
+    display:block;
+    background-color: grey;
+    color: honeydew;
+    font-style: italic;
+    padding: 2px;
+    
+}
+Img{
+    width:100%;
+}
+nav{
+    width:20%;
+}
+main{
+    width:41%;
+}
+aside{
+    overflow: hidden;
+    width:25%;
+}
+footer{
+    flex:100%;
+}
+
+header, nav, main, aside, footer {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;    
+}
